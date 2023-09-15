@@ -1,0 +1,12 @@
+model_config_list {
+  config {
+    name: "saved_model"
+    base_path: "/Potatodisease/saved_model"
+    model_platform: "tensorflow"
+    model_version_policy: {
+      all: {}
+    }
+  }
+}
+
+
